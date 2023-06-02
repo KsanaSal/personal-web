@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-display;
+    }
+    h3 {
+        @apply uppercase text-xl text-yellow-200 mb-2 md:text-2xl lg:text-3xl;
+    }
+    p {
+        @apply text-base md:text-lg lg:text-xl;
+    }
+    html {
+        font-family: Merriweather;
+    }
+}
