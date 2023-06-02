@@ -20,7 +20,8 @@ export const personalData = {
 export const aboutMe = {
     title: "About Me",
     body: [
-        "I am a passionate Front-end developer with a desire to learn and grow in a collaborative team environment. After working for 20 years in the Antonov company as a 3D engineer designer and had achieved maximum development in this field, I decided to completely change my field of activity. I am looking for an entry-level position with a company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects. Skilled in HTML, CSS, JavaScript and React, Tailwind CSS, Node.js, Angular, I know English at an intermediate level and am learning it now to improve my level. Development, practice and work for the result are important for me",
+        "I am a passionate Front-end developer with a desire to learn and grow in a collaborative team environment. After working for 20 years in the Antonov company as a 3D engineer designer and having achieved maximum development in this field, I decided to completely change my field of activity. I am looking for an entry-level position with a company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.",
+        "I Skilled in HTML, CSS, JavaScript and React, Tailwind CSS, Node.js, Angular, I know English at an intermediate level and am learning it now to improve my level. Development, practice and work for the result are important for me.",
     ],
 };
 
@@ -51,26 +52,26 @@ export const skills = {
 };
 
 export const professionalData = {
-	title: "Professional Experience",
-	experiences: [
-		{
-			role: "Engineer designer 1 category (2017-Present)",
-			description:
-				"Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
-			current: true,
-		},
+    title: "Professional Experience",
+    experiences: [
+        {
+            role: "Engineer designer 1 category (2017-Present)",
+            description:
+                "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
+            current: true,
+        },
 
-		{
-			role: "Engineer designer 2 category (2005-2017)",
-			description:
-				"Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
-			current: false,
-		},
-		{
-			role: "Engineer designer 3 category (2002-2005)",
-			description:
-				"Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
-			current: false,
-		},
-	],
+        {
+            role: "Engineer designer 2 category (2005-2017)",
+            description:
+                "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
+            current: false,
+        },
+        {
+            role: "Engineer designer 3 category (2002-2005)",
+            description:
+                "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
+            current: false,
+        },
+    ],
 };
