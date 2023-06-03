@@ -19,6 +19,9 @@
         font-family: Merriweather;
     }
     .btn {
-        @apply w-1/2 h-12 text-black font-display uppercase text-xl px-4 transition ease-in-out hover:text-yellow hover:bg-black duration-200;
+        @apply w-full md:w-1/2 h-12 text-cyan-950  font-display uppercase text-xl lg:text-2xl px-4 py-2  border-2  rounded-lg transition ease-in-out hover:bg-cyan-950 hover:text-yellow-400 duration-300;
+    }
+    .skill {
+        @apply bg-cyan-200 text-lg md:text-xl lg:text-2xl py-2 px-4 w-fit rounded-lg;
     }
 }

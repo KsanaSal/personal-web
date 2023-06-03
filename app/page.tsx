@@ -1,11 +1,10 @@
-import { aboutMe } from "@/data/pageData";
-import Image from "next/image";
+import { aboutMe, skills } from "@/data/pageData";
 import AboutMe from "./component/AboutMe";
 
 export default function Home() {
     return (
         <div>
-            <AboutMe data={aboutMe} />
+            <AboutMe data={aboutMe} skills={skills} />
         </div>
     );
 }

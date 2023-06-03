@@ -28,9 +28,9 @@ export const aboutMe = {
 export const skills = {
     soft: [
         { icon: "👩‍🏫", text: "Attentive" },
-        { icon: "👥", text: "Collaboration" },
+        { icon: "🤝", text: "Collaboration" },
         { icon: "👩‍💻", text: "Hardworking" },
-        { icon: "⽓", text: "Teamwork" },
+        { icon: "👨‍👩‍👧‍👧", text: "Teamwork" },
         { icon: "💡", text: "Creative Problem Solving" },
         { icon: "⌛️", text: "Time management" },
         { icon: "👩‍🎓", text: "Eager to learn" },
@@ -41,13 +41,13 @@ export const skills = {
         { icon: "ʦ", text: "TypeScript" },
         { icon: "⚛", text: "React" },
         { icon: "💾", text: "SQL" },
-        { icon: "🐝", text: "Node.js" },
-        { icon: "A", text: "Angular" },
-        { icon: "F", text: "Figma" },
+        { icon: "Ñʝʂ", text: "Node.js" },
+        { icon: "✡", text: "Angular" },
+        { icon: "Ϝ", text: "Figma" },
         { icon: "Ai", text: "Illustrator" },
         { icon: "Ps", text: "Photoshop" },
-        { icon: "💎", text: "AutoCad" },
-        { icon: "🌠JDS", text: "CATIA" },
+        { icon: "Α", text: "AutoCad" },
+        { icon: "JDS", text: "CATIA" },
     ],
 };
 
