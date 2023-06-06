@@ -55,20 +55,20 @@ export const professionalData = {
     title: "Professional Experience",
     experiences: [
         {
-            role: "Engineer designer 1 category (2017-Present)",
+            role: "Engineer designer 1 category, Antonov company (2017-Present)",
             description:
                 "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
             current: true,
         },
 
         {
-            role: "Engineer designer 2 category (2005-2017)",
+            role: "Engineer designer 2 category, Antonov company (2005-2017)",
             description:
                 "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
             current: false,
         },
         {
-            role: "Engineer designer 3 category (2002-2005)",
+            role: "Engineer designer 3 category, Antonov company (2002-2005)",
             description:
                 "Development of external contours and theoretical foundations of aircraft, creation of blueprints of aircraft model parts for blowing.",
             current: false,
