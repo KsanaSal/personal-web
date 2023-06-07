@@ -1,4 +1,17 @@
-const ProfessionalExperience = ({ professional }: { professional: any }) => {
+type ProfessionalExperienceProps = {
+    professional: {
+        title: string;
+        experiences: {
+            role: string;
+            description: string;
+            current: boolean;
+        }[];
+    };
+};
+
+const ProfessionalExperience = ({
+    professional,
+}: ProfessionalExperienceProps) => {
     return (
         <div>
             <h2 className="text-[32px] mb-4 md:text-[36px] lg:text-[42px] uppercase text-cyan-950">

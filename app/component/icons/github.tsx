@@ -1,4 +1,6 @@
-export const Github = (props: any) => (
+import { IconProps } from ".";
+
+export const Github = (props: IconProps) => (
     <svg
         {...props}
         xmlns="http://www.w3.org/2000/svg"

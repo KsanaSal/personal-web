@@ -4,7 +4,7 @@ export const personalData = {
     education: [
         "Faculty of Physical Engineering. Master of Science, National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”(1997 - 2003)",
     ],
-    AdditionalEducation: [
+    additionalEducation: [
         "Full Stack Developer, IT School GoIT (Kyiv)(2022 - 2023)",
         "Front-end Developer, IT School SheCodes (online)(2022)",
         "Web Design, IT School ITEA (Kyiv)(2019 - 2020)",
@@ -18,11 +18,13 @@ export const personalData = {
 };
 
 export const aboutMe = {
-    title: "About Me",
-    body: [
-        "I am a passionate Front-end developer with a desire to learn and grow in a collaborative team environment. After working for 20 years in the Antonov company as a 3D engineer designer and having achieved maximum development in this field, I decided to completely change my field of activity. I am looking for an entry-level position with a company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.",
-        "I Skilled in HTML, CSS, JavaScript and React, Tailwind CSS, Node.js, Angular, I know English at an intermediate level and am learning it now to improve my level. Development, practice and work for the result are important for me.",
-    ],
+    data: {
+        title: "About Me",
+        body: [
+            "I am a passionate Front-end developer with a desire to learn and grow in a collaborative team environment. After working for 20 years in the Antonov company as a 3D engineer designer and having achieved maximum development in this field, I decided to completely change my field of activity. I am looking for an entry-level position with a company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.",
+            "I Skilled in HTML, CSS, JavaScript and React, Tailwind CSS, Node.js, Angular, I know English at an intermediate level and am learning it now to improve my level. Development, practice and work for the result are important for me.",
+        ],
+    },
 };
 
 export const skills = {

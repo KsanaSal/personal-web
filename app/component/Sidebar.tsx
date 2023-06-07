@@ -1,7 +1,17 @@
 import Image from "next/image";
 import { Behance, Envelope, Github, Linkedin } from "./icons";
 
-const Sidebar = ({ data }: { data: any }) => {
+type SidebarProps = {
+    data: {
+        name: string;
+        role: string;
+        education: string[];
+        contactLinks: string[];
+        additionalEducation: string[];
+    };
+};
+
+const Sidebar = ({ data }: SidebarProps) => {
     return (
         <div className="bg-cyan-950 flex flex-col h-auto content-between w-full sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
             {data && (
@@ -25,9 +35,9 @@ const Sidebar = ({ data }: { data: any }) => {
                             <h3>Education</h3>
                             <p className="mb-3">{data.education}</p>
                             <h3>Additional Education</h3>
-                            <p>{data.AdditionalEducation[0]}</p>
-                            <p>{data.AdditionalEducation[1]}</p>
-                            <p>{data.AdditionalEducation[2]}</p>
+                            <p>{data.additionalEducation[0]}</p>
+                            <p>{data.additionalEducation[1]}</p>
+                            <p>{data.additionalEducation[2]}</p>
                         </div>
                         <div>
                             <h3>Contact me</h3>
