@@ -1,36 +1,6 @@
 "use client";
 import { useState } from "react";
 
-// type Skills = {
-//     icon: string;
-//     text: string;
-// };
-// type SkillsProps2 = {
-//     dataSkills: {
-//         soft: Skills[];
-//         hard: Skills[];
-//     };
-// };
-
-// type SkillsProps1 = {
-//     dataSkills: {
-//         soft: {
-//             icon: string;
-//             text: string;
-//         }[];
-//         hard: {
-//             icon: string;
-//             text: string;
-//         }[];
-//     };
-// };
-
-// type SkillsProps2 = {
-//     dataSkills: {
-//         soft: Skills[];
-//         hard: Skills[];
-//     };
-// };
 type SkillCategory = "soft" | "hard";
 
 export type SkillsProps = {
@@ -44,7 +14,6 @@ export type SkillsProps = {
 
 const Skills = ({ dataSkills }: SkillsProps) => {
     const [activeBtn, setActiveBtn] = useState<SkillCategory>("soft");
-    console.log(activeBtn);
     const setBg = (active: SkillCategory) =>
         activeBtn === active
             ? "bg-yellow-300 border-cyan-950"

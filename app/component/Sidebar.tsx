@@ -16,7 +16,7 @@ const Sidebar = ({ data }: SidebarProps) => {
         <div className="bg-cyan-950 flex flex-col h-auto content-between w-full sm:h-screen sm:justify-around sm:w-1/3 sm:fixed">
             {data && (
                 <>
-                    <div className="text-white flex flex-col py-10 px-6 items-center text-center">
+                    <div className="text-white flex flex-col py-10 px-6 items-center text-center overflow-y-scroll">
                         <Image
                             priority
                             width={300}
